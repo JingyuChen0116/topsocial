@@ -1,0 +1,5 @@
+/* --- Button --- */
+:root {
+  --btn-padding: 0.6rem 2rem;
+  --btn-border-radius: 2rem;
+}
