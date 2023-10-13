@@ -17,7 +17,7 @@
       <!-- Search Bar -->
       <div class="search-bar">
         <i class="uil uil-search-alt"></i>
-        <input type="search" name="navbar-search" id="navbar-search" placeholder="Search for Creators">
+        <input type="search" name="navbar-search" id="navbar-search" placeholder="Search for Creators" />
       </div>
       <!-- Button -->
       <div class="create">
@@ -29,6 +29,7 @@
       </div>
     </div>
   </nav>
+
   <!-- Main -->
   <main>
     <div class="container">
@@ -45,15 +46,62 @@
             <p></p>
           </div>
         </a>
+
+        <!-- Side Bar -->
+        <div class="sidebar"></div>
+
+        <!-- Create Post -->
+        <label for="create-post" class="btn btn-primary">Create Post</label>
+
       </div>
       <!-- Main Left Side END -->
 
       <!-- Main Middle Side START -->
-      <div class="main-middle"></div>
+      <div class="main-middle">
+        <!-- Highline -->
+        <div class="highline"></div>
+        <!-- Post -->
+        <form class="create-post">
+          <div class="profile-photo">
+            <img alt="profile photo">
+          </div>
+          <input type="text" id="create-post">
+          <input type="submit" value="Post" class="btn btn-primary">
+        </form>
+          <!-- Card -->
+          <div class="card"></div>
+      </div>
+    
       <!-- Main Middle Side END -->
 
       <!-- Main Right Side START -->
-      <div class="main-right"></div>
+      <div class="main-right">
+        <!-- Message -->
+        <div class="message">
+          <!-- Title -->
+          <div class="message-title">
+            <h2>Message</h2>
+            <i class="uil uil-edit"></i>
+          </div>
+          <!-- Search Bar-->
+          <div class="search-bar">
+            <i class="uil uil-search-alt"></i>
+            <input type="search" name="navbar-search" id="navbar-search" placeholder="Search Message" />
+          </div>
+          <!-- Function Panel -->
+          <div class="function-panel">
+            <span class="active">Primary</span>
+            <span>General</span>
+            <span>Requests</span>
+          </div>
+          <!-- Friend List -->
+          <div class="friend-list"></div>
+        </div>
+        <!-- Request -->
+        <div class="request-list">
+          <h2>Requests</h2>
+        </div>
+      </div>
       <!-- Main Right Side END -->
     </div>
   </main>

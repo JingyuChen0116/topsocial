@@ -1,1 +1,5 @@
 /* --- Main Right --- */
+.main-right {
+  display: flex;
+  flex-direction: column;
+}

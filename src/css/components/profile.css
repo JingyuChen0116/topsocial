@@ -14,3 +14,38 @@
   height: 100%;
   object-fit: cover;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: var(--left-profile-padding) 0;
+  border-radius: var(--left-profile-radius);
+  column-gap: 1rem;
+  width: 100%;
+}
+
+.profile h2 {
+  line-height: 1.2em;
+}
+
+.profile p {
+  font-size: 0.7rem;
+  color: var(--color-gray);
+}
+
+.profile-photo-list {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.profile-photo-list .profile-photo {
+  width: 1rem;
+  min-width: 1rem;
+  height: 1rem;
+  min-height: 1rem;
+  border-width: 0.1rem;
+}
+
+.info-profile i {
+  cursor: pointer
+}
